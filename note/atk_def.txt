@@ -1,0 +1,22 @@
+wireguard de vao mang 
+
+Password: 
+ssh USER@IP
+Enter password
+
+Private key:
+cp private_key /tmp
+chmod 600 /tmp/private_key
+ssh -i /tmp/private_key USER@IP
+
+
+sudo su de sang root
+docker ps
+docker inspect de coi path cua file docker compose
+
+sftp de download file ve
+get -r example
+
+scp -i ~/.ssh/yourkey -r ./proxy masamune@IP:/tmp/source Copy resource from your local to your vulnbox.
+docker container inspect <container_name_or_id> --format '{{ index .Config.Labels "com.docker.compose.project.working_dir" }}'
+curl http://10.80.0.2:1337/get_note -H "Content-Type: application/json" --data '{"name": "test"}'
